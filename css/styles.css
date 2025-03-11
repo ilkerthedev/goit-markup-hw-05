@@ -478,6 +478,56 @@ footer p.info {
   max-width: 264px;
 }
 
+.footer-form-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input{
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-button{
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-form-icon{
+  margin-left: 16px;
+}
+
 /* MODAL WINDOW */
 
 .modal-window {
@@ -600,7 +650,7 @@ svg.modal-icon {
   fill: #4d5ae5;
 }
 
-.form-container-textarea{
+.form-container-textarea {
   margin-bottom: 16px;
 }
 
@@ -632,10 +682,10 @@ svg.modal-icon {
   fill: transparent;
 }
 
-.checkbox:checked+.assent-checkbox .assent-icon-box {
-    border: none;
-    background-color: #404bbf;
-    fill: #F4F4FD;
+.checkbox:checked + .assent-checkbox .assent-icon-box {
+  border: none;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .form-policy-link {
@@ -676,4 +726,22 @@ svg.modal-icon {
 
 .modal-textarea:focus {
   border-color: #4d5ae5;
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
 }
