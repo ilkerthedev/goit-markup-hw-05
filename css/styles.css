@@ -42,9 +42,9 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+/* a:visited {
   color: inherit;
-}
+} */
 
 a.logo {
   font-family: 'Raleway', sans-serif;
@@ -515,6 +515,7 @@ footer p.info {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
@@ -587,7 +588,7 @@ svg.modal-icon {
   border-color: #4d5ae5;
 }
 
-.input-container .form-icon {
+.form-icon {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -595,8 +596,12 @@ svg.modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-container .form-input:focus .form-icon {
+.form-input:focus + svg.form-icon {
   fill: #4d5ae5;
+}
+
+.form-container-textarea{
+  margin-bottom: 16px;
 }
 
 .assent-container {
@@ -627,28 +632,28 @@ svg.modal-icon {
   fill: transparent;
 }
 
-.assent-container input:checked .assent-icon-box {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+.checkbox:checked+.assent-checkbox .assent-icon-box {
+    border: none;
+    background-color: #404bbf;
+    fill: #F4F4FD;
 }
 
-.form-policy-link{
+.form-policy-link {
   color: #4d5ae5;
 }
 
-.form-button{
+.form-button {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
