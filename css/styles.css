@@ -492,7 +492,7 @@ footer p.info {
   gap: 24px;
 }
 
-.footer-form-input{
+.footer-form-input {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -506,25 +506,25 @@ footer p.info {
   color: #ffffff;
 }
 
-.footer-button{
+.footer-button {
   min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
 }
 
-.footer-form-icon{
+.footer-form-icon {
   margin-left: 16px;
 }
 
